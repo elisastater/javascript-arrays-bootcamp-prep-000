@@ -42,6 +42,15 @@ let array = [1, 2, 3];
 return array[2];
 }
 
+function destructivelyRemoveElementFromBeginningOfArray() {
+var array1 = [1, 2, 3];
+var destructivelyRemoveElementFromBeginningOfArray  = array1.shift();
+
+console.log(array1);
+console.log(destructivelyRemoveElementFromBeginningOfArray);
+
+
+}
 
 
 
