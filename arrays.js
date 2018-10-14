@@ -47,7 +47,7 @@ var array1 = [1, 2, 3];
 var destructivelyRemoveElementFromBeginningOfArray  = array1.shift();
 
 
-return destructivelyRemoveElementFromBeginningOfArray;
+return array1;
 }
 
 
