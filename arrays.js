@@ -43,37 +43,18 @@ return array[2];
 }
 
 
-
-
-
-
-
-function destructivelyAddElementToBeginningOfArray() {
-var array1 = [1, 2, 3];
-var destructivelyRemoveElementFromBeginningOfArray  = array1.shift();
-
-console.log(array1);
-
-
+function destructivelyRemoveElementFromBeginningOfArray() {
+let array = [1, 2, 3];
+array.shift();
+ 
+array[0] = 2;
+array[1] = 3;
+return array;
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 function removeElementFromBeginningOfArray() {
 let array = [1, 2, 3];
 array.shift();
