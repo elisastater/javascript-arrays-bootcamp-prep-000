@@ -43,8 +43,8 @@ return array[2];
 }
 
 function destructivelyRemoveElementFromBeginningOfArray() {
-var array1 = [1, 2, 3];
-var destructivelyRemoveElementFromBeginningOfArray  = array1.shift();
+var array = [1, 2, 3];
+var destructivelyRemoveElementFromBeginningOfArray  = array.shift();
 
 
 return array1;
