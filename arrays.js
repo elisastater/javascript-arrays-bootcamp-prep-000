@@ -50,26 +50,6 @@ return array1;
 
 }
 
-function destructivelyRemoveElementFromBeginningOfArray() {
-let array = [1, 2, 3];
-array.shift();
- 
-array[0] = 2;
-array[1] = 3;
-return array;
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
